@@ -1,0 +1,49 @@
+\documentclass[sigconf]{acmart}
+
+\usepackage{booktabs}
+\setcopyright{none}
+
+% DOI
+\acmDOI{10.475/123_4}
+
+% ISBN
+\acmISBN{123-4567-24-567/08/06}
+
+%Conference
+\acmConference[DSSG'17]{Data Science for Social Good}{September 2017}{Chicago, Illinois USA}
+\acmYear{2017}
+\copyrightyear{2017}
+
+\acmPrice{15.00}
+
+\acmSubmissionID{123-A12-B3}
+
+\begin{document}
+\title[Sharing Securely within Government]{Sharing Securely within Government: Best Practices for Facilitating Interagency Data Science}
+
+\author{Kevin H.~Wilson}
+\affiliation{%
+  \institution{The Lab @ DC}
+  \streetaddress{1350 Pennsylvania Avenue NW}
+  \city{Washington}
+  \state{DC}
+  \postcode{20004}
+}
+\email{kevin.wilson@dc.gov}
+
+\begin{abstract}
+  The Lab @ DC's mission is to infuse policy making in the Government of the District of Columbia with the best available techniques from social and data science. To do so, The Lab must have access to data sets from many different agencies in the District. However, The Lab realized that there were several barriers to agencies sharing their data. Specifically, there was no common legal or security framework for sharing data. This led the Chief Data Officer to develop a new District Data Policy more clearly defining the types of data the District manages and the responsibilities of the agencies in maintainging that data. Simultaneously, for its own work, The Lab developed a data security policy that all its members must follow when working with data from agencies, as well as a templated data use agreement that allows agencies and The Lab to more quickly agree on how and why data will be shared.
+
+We believe that these problems will be common across governments as they attempt to build and adopt evidence-based policies and data science tools. This short note outlines the principles underlying our solutions, and, as online appendices, makes the text of these policies and agreements available.
+\end{abstract}
+
+\keywords{Security Policies, Data Use Agreements, Data Sharing}
+
+\maketitle
+
+\include{content}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{thebib}
+
+\end{document}
