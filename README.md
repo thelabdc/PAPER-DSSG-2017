@@ -16,4 +16,4 @@ The District's Data Policy can be found in `data_policy.md`, though you can also
 
 The Lab's template data use agreement is in `data_use_agreement.docx`.
 
-The Lab's security policy is Appendix C of `data_use_agreement.docx`.
+The Lab's security policy is in `security_policy.md`, as well as incorporated into the data use agreement as Appendix C of `data_use_agreement.docx`.
